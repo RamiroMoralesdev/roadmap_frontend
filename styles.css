@@ -35,7 +35,10 @@ section {
 
 p {
     text-wrap: balance;
+    display: block;
 }
+
+
 
 .btn-bg {
     background-color: var(--btn-bg);
@@ -47,4 +50,21 @@ p {
 
 .cards:nth-child(even) {
     background-color: var(--btn-bg);
+}
+
+
+.card-frame {
+    margin: 10px;
+    background-color: var(--btn-bg);
+    color: var(--text);
+    padding: 20px;
+    font-size: 1.2em;
+    border: 0;
+    display: none;
+
+}
+
+ svg {
+    width: 24px;
+    height: 24px;
 }
