@@ -1,0 +1,30 @@
+:root {
+    --text: #eee;
+    --btn-bg: #30575a;
+
+}
+
+header {
+    width: 100vw;
+    height: 90vh;
+    background-image: url(./assets/turned-gray-laptop-computer.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn-bg {
+    background-color: var(--btn-bg);
+    color: var(--text);
+    padding: 15px;
+    border: 0;
+
+    &:any-link {
+        color: var(--text);
+    }
+}
