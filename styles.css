@@ -6,14 +6,13 @@
 }
 
 body {
+    background-color: var(--dark) !important; 
+    color: var(--text) !important;
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 
-main {
-    background-color: var(--dark);
-    color: var(--text);
-}
 
 header {
     width: 100%;
@@ -35,7 +34,14 @@ section {
 
 p {
     text-wrap: balance;
-    display: block;
+}
+
+.perfil {
+    width: 50%;
+}
+
+.perfil > img {
+    width: 100%;
 }
 
 
@@ -53,12 +59,12 @@ p {
 }
 
 
-.card-frame {
+#card-frame {
     margin: 10px;
     background-color: var(--btn-bg);
     color: var(--text);
     padding: 20px;
-    font-size: 1.2em;
+    font-size: 1.4em;
     border: 0;
     display: none;
 
