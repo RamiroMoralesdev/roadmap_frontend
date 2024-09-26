@@ -7,18 +7,22 @@ body {
 
 header {
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     background-image: url(./assets/turned-gray-laptop-computer.jpg);
     background-size: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em; 
+    font-weight: bolder;
+    margin-bottom: 10px;
 }
 
 .whoiam {
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1.2em;
     margin-bottom: 20px;
 }
@@ -124,6 +128,30 @@ header {
     background-color: #2b6cb0;
 }
 
+#carouselExample {
+    width: 100%;
+    height: 300px;
+    background-color: #09030f;
+    border: 2px solid #3c0d6b;
+    box-shadow: 10px 10px 100px #3c0d6b;
+}
+
+#carouselExample h2 {
+    text-decoration: underline;
+}
+
+
+.carousel-control-icon-custom{
+    width: 40px;
+    height: 40px;
+    background-color: gold;
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    box-shadow: 10px 10px 100px goldenrod;
+    background-image: url(./assets/icons8-flecha-96.png);
+    background-size: contain;
+}
+
 footer {
     display: flex;
     gap: 10px;
@@ -135,6 +163,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 5px 5px;
     gap: 15px;
     background-color: #181717;

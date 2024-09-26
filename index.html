@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ruta de Aprendizaje: Desarrollo Web</title>
     <link rel="shortcut icon" href="https://ramiromorales.tech/assets/favicon transparent.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <script>
         window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
@@ -37,23 +38,43 @@
             </div>
 
         </div>
-
-        <h2>Areas de la programacion</h2>
-        <p>Existen varias áreas de la programación. Algunas de las más destacadas son el desarrollo web, el desarrollo móvil, la inteligencia artificial, el análisis de datos, la seguridad informática y el desarrollo de software. Cada una de estas áreas requiere habilidades y conocimientos específicos, pero todas comparten el objetivo común de crear soluciones tecnológicas innovadoras y eficientes.</p>
-
-
-
-        <h2>¿Qué es el desarrollo web?</h2>
-        <p>El desarrollo web se refiere al proceso de crear sitios web, aplicaciones web y servicios web. Esto incluye desde el diseño visual hasta la programación de la funcionalidad, pasando por la creación de contenido y la gestión de bases de datos. Los desarrolladores web utilizan lenguajes de programación como JavaScript, PHP, o Python entre otros, para construir sitios web dinámicos y atractivos que se pueden acceder a través de Internet.</p>
-
-        <h2>Diferencias entre el desarrollo Front-end y Back-end</h2>
-        <p>El desarrollo frontend se refiere a la parte de un sitio web que interactúa con los usuarios directamente. Esto incluye el diseño visual, la interacción del usuario y la experiencia del usuario. Los desarrolladores frontend utilizan lenguajes de programación como HTML, CSS y JavaScript para construir la interfaz de usuario de un sitio web.</p>
-        <p>El desarrollo backend se refiere a la parte de un sitio web que no es visible para los usuarios. Esto incluye la gestión de la base de datos, la lógica del servidor y la autenticación del usuario.</p>
-
             <p class="description">Para dominar y aprender lenguaje y/o habilidad en cualquier area de la programacion hay que tener bien <b>ASENTADAS LAS BASES</b>. Es por eso que te guiare paso a paso en este camino
             </p>
+
+            
         </div>
 
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h2>Areas de la programacion</h2>
+                <p>Existen varias áreas de la programación. Algunas de las más destacadas son el desarrollo web, el desarrollo móvil, la inteligencia artificial, el análisis de datos, la seguridad informática y el desarrollo de software. Cada una de estas áreas requiere habilidades y conocimientos específicos, pero todas comparten el objetivo común de crear soluciones tecnológicas innovadoras y eficientes.</p>
+
+              </div>
+              <div class="carousel-item">
+                <h2>¿Qué es el desarrollo web?</h2>
+                <p>El desarrollo web se refiere al proceso de crear sitios web, aplicaciones web y servicios web. Esto incluye desde el diseño visual hasta la programación de la funcionalidad, pasando por la creación de contenido y la gestión de bases de datos. Los desarrolladores web utilizan lenguajes de programación como JavaScript, PHP, o Python entre otros, para construir sitios web dinámicos y atractivos que se pueden acceder a través de Internet.</p>
+
+              </div>
+              <div class="carousel-item">
+                <h2>Diferencias entre el desarrollo Front-end y Back-end</h2>
+                <p>El desarrollo frontend se refiere a la parte de un sitio web que interactúa con los usuarios directamente. Esto incluye el diseño visual, la interacción del usuario y la experiencia del usuario. Los desarrolladores frontend utilizan lenguajes de programación como HTML, CSS y JavaScript para construir la interfaz de usuario de un sitio web.</p>
+                <p>El desarrollo backend se refiere a la parte de un sitio web que no es visible para los usuarios. Esto incluye la gestión de la base de datos, la lógica del servidor y la autenticación del usuario.</p>
+              </div>
+            </div>
+
+            <div class="buttonsCarousel"> 
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-icon-custom" aria-hidden="true" style="transform: rotate(180deg);"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-icon-custom" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+
+            </div>
+          </div>
         
 
         <div class="start-button-container">
@@ -108,8 +129,9 @@
             title: 'JavaScript',
             description: 'Javascript es el <b>Primer lenguaje de programacion que aprenderas</b> <br> Javascript un lenguaje creado en 1995. Multiparadigma. Podras crear y añadir funcionalidad a un sitio web de forma limpia. Este lenguaje puede ser algo dificil de comprender al principio. <b>Pero intenta no saltarte las bases del desarrollo web</b>. Si luego quieres aprender y/o usar un framework necesitaras conocimientos de este lenguaje',
             links: [
-                { text: 'Curso Interactivo - Midudev', url: '"https://www.aprendejavascript.dev/' },
-                { text: 'Bootcamp Interactivo', url: 'href="https://www.freecodecamp.org/espanol/learn/javascript-algorithms-and-data-structures-v8/' },
+                { text: 'Curso Interactivo - Midudev', url: 'https://www.aprendejavascript.dev/' },
+                { text: 'Aprende Algoritmos', url: 'https://the-algorithms.com/es' },
+                { text: 'Bootcamp Interactivo', url: 'https://www.freecodecamp.org/espanol/learn/javascript-algorithms-and-data-structures-v8/' },
                 { text: 'Todo sobre Javascript', url: 'https://lenguajejs.com/javascript/' },
             ],
         },
@@ -118,7 +140,6 @@
             description: 'Con Git, un sistema de control de versiones distribuido que te permite rastrear los cambios en archivos y coordinar el trabajo entre varias personas en un proyecto de software. Git es ampliamente utilizado por desarrolladores y equipos de software porque facilita la colaboración, el seguimiento de versiones, y la gestión de cambios de código.',
             links: [
                 { text: 'Introduccion a Git y Github', url: 'https://todocodeacademy.com/course/git-y-github-desde-cero/' },
-                { text: 'Bootcamp Interactivo', url: 'href="https://www.freecodecamp.org/espanol/learn/javascript-algorithms-and-data-structures-v8/' },
                 { text: 'Git y Github desde cero - Mouredev', url: 'https://www.youtube.com/watch?v=3GymExBkKjE' },
             ],
         },
@@ -178,6 +199,7 @@
         step.links.forEach(link => {
             const linkButton = document.createElement('a');
             linkButton.href = link.url;
+            linkButton.target = "_blank"
             linkButton.className = 'link-button';
             linkButton.innerHTML = `<span>${link.text}</span>`;
             content.appendChild(linkButton);
@@ -193,5 +215,7 @@
 
 
     </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
