@@ -16,6 +16,30 @@ header {
     font-size: 2em; 
 }
 
+.whoiam {
+    width: 100%;
+    display: flex;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.whoiam img {
+    width: 60%;
+    margin: 10px;
+}
+
+
+.btn-header {
+    background-color: #0a0a23;
+    
+    padding: 10px;
+    color: #ccc;
+}
+
+.btn-header a:any-link {
+    color: #ccc !important; 
+    text-decoration: none;
+}
 .container {
     max-width: 768px;
     margin: auto;
@@ -35,9 +59,6 @@ header {
     transition: background-color 0.3s;
 }
 
-.card:hover {
-    background-color: #4a5568;
-}
 
 .card-header {
     padding: 16px;
@@ -102,3 +123,43 @@ header {
 .start-button:hover {
     background-color: #2b6cb0;
 }
+
+footer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* From Uiverse.io by kamehame-ha */ 
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    gap: 15px;
+    background-color: #181717;
+    outline: 3px #181717 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  .button > a {
+    text-decoration: none;
+  }
+  
+  .button .text {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+  }
+  
+  .button svg path {
+    transition: 400ms;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
